@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0067F7FB2A90AD75BD0A3CBA58336251 /* SSLocalNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D5A80D0D092DF1E1B5322298C12DFF /* SSLocalNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C10AE9B542EBD02FD5C1AE02D85564A /* Pods-SSLocalNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E3237A272BB7F26996AAF03FC2352F /* Pods-SSLocalNotification_Example-dummy.m */; };
+		1D9D9D15F602567C37DC44159EF52F35 /* Pods-SSLocalNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7FAE04478C85DD67962D77CE9D78BD /* Pods-SSLocalNotification_Tests-dummy.m */; };
+		1EA4E2A275D5949ADFE9C97FEA6EEB3D /* Pods-SSLocalNotification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F69409AC835815ABC59F38F90C6ECE /* Pods-SSLocalNotification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270050C29FC1647758AFB9200787B0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2CDD03E4DA449A31C75F7AB9A23210A8 /* SSLocalNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18A4F9045F139D7090A4A9EF8853EA /* SSLocalNotificationController.swift */; };
+		569D2A5C72A8101FF549FB8F0FE9A880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		851565F90880F2CC903BC7F23FE1571C /* SSLocalNotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDECDD1B2357E84AE0723321BC35B1B /* SSLocalNotificationAction.swift */; };
+		AFBA57ACDBF5AEC37A0269B58BCCD89F /* SSLocalNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46E8FA26A6E8B4034205065B67FDC /* SSLocalNotification-dummy.m */; };
+		B9B0B3C7267A9D77195FA8824AC8FBB2 /* Pods-SSLocalNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 969222D507EB88B860217F77C788C7E9 /* Pods-SSLocalNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A66F393A48E12E4EC5D36514B3645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A3E01375BECFCF945E1602F543D1AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCBEAFACD1E1EB8E9D715F34E2625AF;
+			remoteInfo = SSLocalNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDECDD1B2357E84AE0723321BC35B1B /* SSLocalNotificationAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSLocalNotificationAction.swift; sourceTree = "<group>"; };
+		1D18A4F9045F139D7090A4A9EF8853EA /* SSLocalNotificationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSLocalNotificationController.swift; sourceTree = "<group>"; };
+		317C36744CDAE5A3454A6AF1CB3A3905 /* Pods-SSLocalNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLocalNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
+		318DA85F29F1A7BE00574307CE575EBF /* Pods_SSLocalNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSLocalNotification_Example.framework; path = "Pods-SSLocalNotification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34724381968DE0CD8D976E648263D30C /* Pods-SSLocalNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLocalNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
+		36A1056C8ADE497628308C87BD0B4F7C /* Pods-SSLocalNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SSLocalNotification_Example.modulemap"; sourceTree = "<group>"; };
+		36F85F98A3A47AAD3F98E1050D4F24BE /* Pods-SSLocalNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLocalNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		382A5B5A09143385106F7B5A274F688A /* Pods-SSLocalNotification_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLocalNotification_Tests-resources.sh"; sourceTree = "<group>"; };
+		3C5CD86AFC2EB5D46D35572981283E26 /* SSLocalNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSLocalNotification.modulemap; sourceTree = "<group>"; };
+		43D5A80D0D092DF1E1B5322298C12DFF /* SSLocalNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLocalNotification-umbrella.h"; sourceTree = "<group>"; };
+		46F69409AC835815ABC59F38F90C6ECE /* Pods-SSLocalNotification_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLocalNotification_Example-umbrella.h"; sourceTree = "<group>"; };
+		4CB46E8FA26A6E8B4034205065B67FDC /* SSLocalNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSLocalNotification-dummy.m"; sourceTree = "<group>"; };
+		50C6BA5F03F857D7922E3D40B1235EE7 /* Pods_SSLocalNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSLocalNotification_Tests.framework; path = "Pods-SSLocalNotification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6652A46CFF0A302857F1805CB47BBD78 /* Pods-SSLocalNotification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLocalNotification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		737D11BA077757BCD580754A1AC599DB /* Pods-SSLocalNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLocalNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		77569BC767357D5D20A868ACF0775622 /* SSLocalNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSLocalNotification.framework; path = SSLocalNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BFD3A0C759312AAB4E400C9F9EBB2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407601386FFB73F160475EED41DF241 /* Pods-SSLocalNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLocalNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88661511753FB378447D34FB1F02E918 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88762691929FC53F76E73DE322857199 /* Pods-SSLocalNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SSLocalNotification_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		969222D507EB88B860217F77C788C7E9 /* Pods-SSLocalNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLocalNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A5E3237A272BB7F26996AAF03FC2352F /* Pods-SSLocalNotification_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLocalNotification_Example-dummy.m"; sourceTree = "<group>"; };
+		A77E789C730D5739235025559AFACB08 /* SSLocalNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLocalNotification-prefix.pch"; sourceTree = "<group>"; };
+		AB1089D3293086126F24E19F687CBA2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCD59D4A8362F2CBA6A711DF6169A8E /* Pods-SSLocalNotification_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLocalNotification_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BDF9E999BF169C74E48ED77752014D98 /* Pods-SSLocalNotification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLocalNotification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C560B16387996D25EA1C3DD1CD3BCA01 /* Pods-SSLocalNotification_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLocalNotification_Example-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E030F336E1FDE660B973319B09CEBE05 /* Pods-SSLocalNotification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLocalNotification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E45B02EB028747634B89ADA264DB8308 /* SSLocalNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSLocalNotification.xcconfig; sourceTree = "<group>"; };
+		EC7FAE04478C85DD67962D77CE9D78BD /* Pods-SSLocalNotification_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLocalNotification_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3F9904FCDFF246F01CB5AC96D865355 /* Pods-SSLocalNotification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLocalNotification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C8FBE68F8CE6912618799B310D94572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270050C29FC1647758AFB9200787B0E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB94542244CA77A2918AD4DBF930126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A66F393A48E12E4EC5D36514B3645B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CEBA679019DE221E1D3D372BFDF395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D2A5C72A8101FF549FB8F0FE9A880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4F220B5F2566EF985546EA960369D6 /* Pods-SSLocalNotification_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88661511753FB378447D34FB1F02E918 /* Info.plist */,
+				36A1056C8ADE497628308C87BD0B4F7C /* Pods-SSLocalNotification_Example.modulemap */,
+				F3F9904FCDFF246F01CB5AC96D865355 /* Pods-SSLocalNotification_Example-acknowledgements.markdown */,
+				E030F336E1FDE660B973319B09CEBE05 /* Pods-SSLocalNotification_Example-acknowledgements.plist */,
+				A5E3237A272BB7F26996AAF03FC2352F /* Pods-SSLocalNotification_Example-dummy.m */,
+				34724381968DE0CD8D976E648263D30C /* Pods-SSLocalNotification_Example-frameworks.sh */,
+				C560B16387996D25EA1C3DD1CD3BCA01 /* Pods-SSLocalNotification_Example-resources.sh */,
+				46F69409AC835815ABC59F38F90C6ECE /* Pods-SSLocalNotification_Example-umbrella.h */,
+				8407601386FFB73F160475EED41DF241 /* Pods-SSLocalNotification_Example.debug.xcconfig */,
+				317C36744CDAE5A3454A6AF1CB3A3905 /* Pods-SSLocalNotification_Example.release.xcconfig */,
+			);
+			name = "Pods-SSLocalNotification_Example";
+			path = "Target Support Files/Pods-SSLocalNotification_Example";
+			sourceTree = "<group>";
+		};
+		3A70507620C57726C8C509FB829140DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DD360AF84693B637F46A73E5359BA /* SSLocalNotification */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F7DD360AF84693B637F46A73E5359BA /* SSLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				63F366170B937AA937572D302550D7D0 /* SSLocalNotification */,
+				45C0EF885081C72252815C0BF10EE689 /* Support Files */,
+			);
+			name = SSLocalNotification;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F812A99990203A8C94E94AC23129A04 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D4F220B5F2566EF985546EA960369D6 /* Pods-SSLocalNotification_Example */,
+				6956BAE78B7BFF91EC89A234F3FB3267 /* Pods-SSLocalNotification_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45C0EF885081C72252815C0BF10EE689 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB1089D3293086126F24E19F687CBA2A /* Info.plist */,
+				3C5CD86AFC2EB5D46D35572981283E26 /* SSLocalNotification.modulemap */,
+				E45B02EB028747634B89ADA264DB8308 /* SSLocalNotification.xcconfig */,
+				4CB46E8FA26A6E8B4034205065B67FDC /* SSLocalNotification-dummy.m */,
+				A77E789C730D5739235025559AFACB08 /* SSLocalNotification-prefix.pch */,
+				43D5A80D0D092DF1E1B5322298C12DFF /* SSLocalNotification-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSLocalNotification";
+			sourceTree = "<group>";
+		};
+		5629AE9EB3603047FFD1967E42561DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318DA85F29F1A7BE00574307CE575EBF /* Pods_SSLocalNotification_Example.framework */,
+				50C6BA5F03F857D7922E3D40B1235EE7 /* Pods_SSLocalNotification_Tests.framework */,
+				77569BC767357D5D20A868ACF0775622 /* SSLocalNotification.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F366170B937AA937572D302550D7D0 /* SSLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				D7D50CAD0573F259AB61237A9AFFC11A /* Classes */,
+			);
+			name = SSLocalNotification;
+			path = SSLocalNotification;
+			sourceTree = "<group>";
+		};
+		6956BAE78B7BFF91EC89A234F3FB3267 /* Pods-SSLocalNotification_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83BFD3A0C759312AAB4E400C9F9EBB2D /* Info.plist */,
+				88762691929FC53F76E73DE322857199 /* Pods-SSLocalNotification_Tests.modulemap */,
+				BDF9E999BF169C74E48ED77752014D98 /* Pods-SSLocalNotification_Tests-acknowledgements.markdown */,
+				6652A46CFF0A302857F1805CB47BBD78 /* Pods-SSLocalNotification_Tests-acknowledgements.plist */,
+				EC7FAE04478C85DD67962D77CE9D78BD /* Pods-SSLocalNotification_Tests-dummy.m */,
+				BDCD59D4A8362F2CBA6A711DF6169A8E /* Pods-SSLocalNotification_Tests-frameworks.sh */,
+				382A5B5A09143385106F7B5A274F688A /* Pods-SSLocalNotification_Tests-resources.sh */,
+				969222D507EB88B860217F77C788C7E9 /* Pods-SSLocalNotification_Tests-umbrella.h */,
+				737D11BA077757BCD580754A1AC599DB /* Pods-SSLocalNotification_Tests.debug.xcconfig */,
+				36F85F98A3A47AAD3F98E1050D4F24BE /* Pods-SSLocalNotification_Tests.release.xcconfig */,
+			);
+			name = "Pods-SSLocalNotification_Tests";
+			path = "Target Support Files/Pods-SSLocalNotification_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3A70507620C57726C8C509FB829140DD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5629AE9EB3603047FFD1967E42561DA5 /* Products */,
+				3F812A99990203A8C94E94AC23129A04 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7D50CAD0573F259AB61237A9AFFC11A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0BDECDD1B2357E84AE0723321BC35B1B /* SSLocalNotificationAction.swift */,
+				1D18A4F9045F139D7090A4A9EF8853EA /* SSLocalNotificationController.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1576DE4140D69B7D47CE9F21D3570550 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B0B3C7267A9D77195FA8824AC8FBB2 /* Pods-SSLocalNotification_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800CBBEA4FD8C6A61678B91E8BECE5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0067F7FB2A90AD75BD0A3CBA58336251 /* SSLocalNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ED415F8253CF24B732A6A4B34F4DBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA4E2A275D5949ADFE9C97FEA6EEB3D /* Pods-SSLocalNotification_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABCBEAFACD1E1EB8E9D715F34E2625AF /* SSLocalNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8EA4C5357A95343D7D9F602AD5213F /* Build configuration list for PBXNativeTarget "SSLocalNotification" */;
+			buildPhases = (
+				8C57C1DE20E30BB30F81AA34A9B044B1 /* Sources */,
+				CCB94542244CA77A2918AD4DBF930126 /* Frameworks */,
+				1800CBBEA4FD8C6A61678B91E8BECE5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLocalNotification;
+			productName = SSLocalNotification;
+			productReference = 77569BC767357D5D20A868ACF0775622 /* SSLocalNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE9536429962F81FCEFD49657D656DD4 /* Pods-SSLocalNotification_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3B251F678E294CE91B148593FE2C8F /* Build configuration list for PBXNativeTarget "Pods-SSLocalNotification_Tests" */;
+			buildPhases = (
+				68318CD5705D9B3A63B880AE5DC1CFF4 /* Sources */,
+				1C8FBE68F8CE6912618799B310D94572 /* Frameworks */,
+				1576DE4140D69B7D47CE9F21D3570550 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SSLocalNotification_Tests";
+			productName = "Pods-SSLocalNotification_Tests";
+			productReference = 50C6BA5F03F857D7922E3D40B1235EE7 /* Pods_SSLocalNotification_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E147FA10D8974214AB334FB7F108D8F1 /* Pods-SSLocalNotification_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C98213532F0D197565ED86EE77FF75 /* Build configuration list for PBXNativeTarget "Pods-SSLocalNotification_Example" */;
+			buildPhases = (
+				ABF53D76624B0A1E361E259EC19C1F35 /* Sources */,
+				F4CEBA679019DE221E1D3D372BFDF395 /* Frameworks */,
+				C1ED415F8253CF24B732A6A4B34F4DBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0F4009FE2F35BFE8A2CAEBF00B19D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLocalNotification_Example";
+			productName = "Pods-SSLocalNotification_Example";
+			productReference = 318DA85F29F1A7BE00574307CE575EBF /* Pods_SSLocalNotification_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5629AE9EB3603047FFD1967E42561DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E147FA10D8974214AB334FB7F108D8F1 /* Pods-SSLocalNotification_Example */,
+				CE9536429962F81FCEFD49657D656DD4 /* Pods-SSLocalNotification_Tests */,
+				ABCBEAFACD1E1EB8E9D715F34E2625AF /* SSLocalNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68318CD5705D9B3A63B880AE5DC1CFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D9D15F602567C37DC44159EF52F35 /* Pods-SSLocalNotification_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C57C1DE20E30BB30F81AA34A9B044B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA57ACDBF5AEC37A0269B58BCCD89F /* SSLocalNotification-dummy.m in Sources */,
+				851565F90880F2CC903BC7F23FE1571C /* SSLocalNotificationAction.swift in Sources */,
+				2CDD03E4DA449A31C75F7AB9A23210A8 /* SSLocalNotificationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF53D76624B0A1E361E259EC19C1F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10AE9B542EBD02FD5C1AE02D85564A /* Pods-SSLocalNotification_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D0F4009FE2F35BFE8A2CAEBF00B19D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSLocalNotification;
+			target = ABCBEAFACD1E1EB8E9D715F34E2625AF /* SSLocalNotification */;
+			targetProxy = 9A3E01375BECFCF945E1602F543D1AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16F0230EAB7FE856B4C289000416CA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8407601386FFB73F160475EED41DF241 /* Pods-SSLocalNotification_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLocalNotification_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLocalNotification_Example/Pods-SSLocalNotification_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSLocalNotification_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		596B882AF9C8666A524A097C373C344C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45B02EB028747634B89ADA264DB8308 /* SSLocalNotification.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSLocalNotification/SSLocalNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLocalNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLocalNotification/SSLocalNotification.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSLocalNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60E15D7CF261376AB7118B5A3C15EA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F85F98A3A47AAD3F98E1050D4F24BE /* Pods-SSLocalNotification_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLocalNotification_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLocalNotification_Tests/Pods-SSLocalNotification_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSLocalNotification_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB1DB7ADB58DCC82E8789340D95FD8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737D11BA077757BCD580754A1AC599DB /* Pods-SSLocalNotification_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLocalNotification_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLocalNotification_Tests/Pods-SSLocalNotification_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSLocalNotification_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADC0E8A1EE70064F0A7F0BA1DB78AAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45B02EB028747634B89ADA264DB8308 /* SSLocalNotification.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSLocalNotification/SSLocalNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLocalNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLocalNotification/SSLocalNotification.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSLocalNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B0B02A95AE884C235E2E9B41EA29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317C36744CDAE5A3454A6AF1CB3A3905 /* Pods-SSLocalNotification_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLocalNotification_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLocalNotification_Example/Pods-SSLocalNotification_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSLocalNotification_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8EA4C5357A95343D7D9F602AD5213F /* Build configuration list for PBXNativeTarget "SSLocalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0E8A1EE70064F0A7F0BA1DB78AAFE /* Debug */,
+				596B882AF9C8666A524A097C373C344C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C98213532F0D197565ED86EE77FF75 /* Build configuration list for PBXNativeTarget "Pods-SSLocalNotification_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F0230EAB7FE856B4C289000416CA18 /* Debug */,
+				BE9B0B02A95AE884C235E2E9B41EA29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3B251F678E294CE91B148593FE2C8F /* Build configuration list for PBXNativeTarget "Pods-SSLocalNotification_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DB7ADB58DCC82E8789340D95FD8B4 /* Debug */,
+				60E15D7CF261376AB7118B5A3C15EA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

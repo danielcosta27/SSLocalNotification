@@ -1,0 +1,6 @@
+framework module SSLocalNotification {
+  umbrella header "SSLocalNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SSLocalNotification (0.1.1)
+
+DEPENDENCIES:
+  - SSLocalNotification (from `../`)
+
+EXTERNAL SOURCES:
+  SSLocalNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSLocalNotification: f85f47ef7a43ff3f7d98728de078ad9b4cec99a7
+
+PODFILE CHECKSUM: b458a2163668f277f1fae007f5cdcbe51bae93cc
+
+COCOAPODS: 1.2.0.beta.1
